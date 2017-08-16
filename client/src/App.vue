@@ -2,6 +2,7 @@
   <div id="app">
 
 	<h1 id="welcome">Welcome to the land of evils.</h1>
+	<a href="/api/test/get">check</a>
 
   </div>	
 </template>
