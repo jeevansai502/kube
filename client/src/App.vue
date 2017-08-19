@@ -1,23 +1,17 @@
 <template>
   <div id="app">
-
-	<h1 id="welcome">Welcome to the land of evils.</h1>
-	<a href="/api/test/get">check</a>
-
+    <router-view></router-view>
   </div>	
 </template>
 
 <script>
-
   export default {
     name: 'app',
   };
 </script>
 
 <style>
-
-#welcome{
-	color: green;
+#app{
+	height: 100%;
 }
-
 </style>
